@@ -1,0 +1,25 @@
+.page_footer {
+    background-color: #000;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .name_signature {
+        text-decoration: none;
+        font-family: "Ephesis", cursive;
+        font-weight: 100;
+        font-size: 2em;  
+        color: white;
+        margin-left:50px;
+    }
+
+    .footer_links {
+        display: flex;
+        font-size: 1em;
+    }
+    img{
+        height:4em;
+    }
+}

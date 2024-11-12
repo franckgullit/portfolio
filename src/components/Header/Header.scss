@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 15px 50px;
+    width: 93%;
+
+    .name_signature {
+        text-decoration: none;
+        font-family: "Ephesis", cursive;
+        font-weight: 100;
+        font-size: 2em;  
+        color: black;
+    }
+
+    .header_links {
+        display: flex;
+        gap: 33px;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: lighter;
+    }
+
+    nav a:focus {
+       font-weight: bold;
+    }
+}
