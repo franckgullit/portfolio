@@ -4,22 +4,30 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    padding: 15px;
 
     .name_signature {
         text-decoration: none;
         font-family: "Ephesis", cursive;
         font-weight: 100;
-        font-size: 2em;  
+        font-size: 2em;
         color: white;
-        margin-left:50px;
+        margin-left: 50px;
     }
 
     .footer_links {
-        display: flex;
         font-size: 1em;
+        display: flex;
+        gap: 25px;
+
+        img {
+            height: 3em;
+            border-radius: 5px;
+        }
     }
-    img{
-        height:4em;
+
+    nav a:hover {
+        box-shadow: 0 0 15px 5px rgba(0, 255, 255, 0.7); 
+        transform: scale(1.05);
     }
 }

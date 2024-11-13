@@ -1,0 +1,20 @@
+.homePage {
+    position: relative;
+    width:100%;
+  
+    .homescreen {
+        width: 100%; 
+      }
+  
+    .job_Title {
+      position: absolute;
+      top: 40%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      color:white; 
+      font-size:4em; 
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+      font-family: "Tomorrow", sans-serif;
+      font-weight: 300;
+    }
+  }
