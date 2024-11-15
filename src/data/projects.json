@@ -1,0 +1,167 @@
+[
+	{
+		"id": "5323c29b",
+		"title": "Booki",
+		"cover": " https://i.ibb.co/b2LpS9w/e1bcfe81c2f2.webp",
+		"pictures": [
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-2.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-4.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-5.jpg"
+		],
+		"description": "Idéalement situé à 2 pas de la place de la République, ce studio particulièrement fonctionnel est parfait pour découvrir Paris. Proche de tous les points d'intérêts grâce aux 5 lignes de métro qui sont à 5 minutes, vous pourrez rentabiliser votre temps passé à la capitale.",
+		"host": {
+			"name": "Sarah Devit",
+			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
+		},
+		"rating": "3",
+		"location": "Ile de France - Paris 3e",
+		"equipments": [
+			"Rangements",
+			"Lit",
+			"Sèche Cheveux",
+			"Wi-fi",
+			"TV",
+			"Bouilloire"
+		],
+		"tags": [
+			"Marais",
+			"République",
+			"Studio",
+			"Proche Métros",
+			"Commerces"
+		]
+	},
+	{
+		"id": "ba55a0cc",
+		"title": "Sophie Bluel",
+		"cover": "https://i.ibb.co/QJZhDkW/845a29cff11d.webp",
+		"pictures": [
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-2.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-3.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-4.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-5.jpg"
+		],
+		"description": "Maison T5. Idéale pour grands groupes. 45 minutes de Paris Saint-Lazare.",
+		"host": {
+			"name": "Karen Guillet",
+			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
+		},
+		"rating": "3",
+		"location": "Ile de France - Arnouville",
+		"equipments": [
+			"Bouilloire",
+			"SDB",
+			"Cuisine équipée",
+			"Frigo",
+			"WIFI",
+			"TV",
+			"Cintres",
+			"Four",
+			"Micro-Ondes",
+			"Parking"
+		],
+		"tags": [
+			"Nature",
+			"Groupe",
+			"Maison"
+		]
+	},
+	{
+		"id": "1e181317",
+		"title": "Nina Carducci",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
+		"pictures": [
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-2.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-3.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-4.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-5.jpg"
+		],
+		"description": "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les équipements pour que vous soyez comme chez vous.",
+		"host": {
+			"name": "Julie Donatella",
+			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
+		},
+		"rating": "3",
+		"location": "Ile de France - La Défense",
+		"equipments": [
+			"Baie vitrée",
+			"Télévision",
+			"Four",
+			"Frigo",
+			"Wi-fi",
+			"Micro-Ondes",
+			"Parking"
+		],
+		"tags": [
+			"La Défense",
+			"Loft",
+			"Luxe"
+		]
+	},
+	{
+		"id": "1e180563",
+		"title": "Kasa",
+		"cover": "https://i.ibb.co/BfQH8kD/c0246fb5ef36.webp",
+		"pictures": [
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-2.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-3.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-4.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-5.jpg"
+		],
+		"description": "Ce charmant appartement offre des prestations de luxe, aux portes de Paris. À deux pas de la ligne 3, vous pourrez accéder à toutes les attractions touristiques dont vous avez toujours rêvées.",
+		"host": {
+			"name": "Julie Donatella",
+			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
+		},
+		"rating": "4",
+		"location": "Ile de France - Levallois",
+		"equipments": [
+			"Télévision",
+			"Four",
+			"Frigo",
+			"Hotte",
+			"Wi-fi",
+			"Micro-Ondes"
+		],
+		"tags": [
+			"Vue Parc",
+			"Apt de Charme"
+		]
+	},
+    {
+		"id": "1e180563",
+		"title": "Mon Vieux Grimoire",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
+		"pictures": [
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-2.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-3.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-4.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-5.jpg"
+		],
+		"description": "Ce charmant appartement offre des prestations de luxe, aux portes de Paris. À deux pas de la ligne 3, vous pourrez accéder à toutes les attractions touristiques dont vous avez toujours rêvées.",
+		"host": {
+			"name": "Julie Donatella",
+			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
+		},
+		"rating": "4",
+		"location": "Ile de France - Levallois",
+		"equipments": [
+			"Télévision",
+			"Four",
+			"Frigo",
+			"Hotte",
+			"Wi-fi",
+			"Micro-Ondes"
+		],
+		"tags": [
+			"Vue Parc",
+			"Apt de Charme"
+		]
+	}
+	
+]
