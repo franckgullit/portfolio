@@ -1,167 +1,37 @@
 [
 	{
-		"id": "5323c29b",
+		"id": "P2",
 		"title": "Booki",
+		"title1": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
 		"cover": " https://i.ibb.co/b2LpS9w/e1bcfe81c2f2.webp",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-5.jpg"
-		],
-		"description": "Idéalement situé à 2 pas de la place de la République, ce studio particulièrement fonctionnel est parfait pour découvrir Paris. Proche de tous les points d'intérêts grâce aux 5 lignes de métro qui sont à 5 minutes, vous pourrez rentabiliser votre temps passé à la capitale.",
-		"host": {
-			"name": "Sarah Devit",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
-		},
-		"rating": "3",
-		"location": "Ile de France - Paris 3e",
-		"equipments": [
-			"Rangements",
-			"Lit",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"TV",
-			"Bouilloire"
-		],
-		"tags": [
-			"Marais",
-			"République",
-			"Studio",
-			"Proche Métros",
-			"Commerces"
-		]
+		"description": "Formellement ma première expérience de codage, j'ai dû créer la page d'accueil d'une agence de voyages en utilisant HTML et CSS et en veillant à ce qu'elle reste compatible avec toutes les tailles d'écran.Rendre la page réactive a d'abord posé un défi, mais grâce à ce projet, j'ai découvert Figma,Flexbox,barre de saisie et bien plus encore."
 	},
 	{
-		"id": "ba55a0cc",
+		"id": "P3",
 		"title": "Sophie Bluel",
+		"title1": "Création d'une page web dynamique avec JAVASCRIPT",
 		"cover": "https://i.ibb.co/QJZhDkW/845a29cff11d.webp",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-5.jpg"
-		],
-		"description": "Maison T5. Idéale pour grands groupes. 45 minutes de Paris Saint-Lazare.",
-		"host": {
-			"name": "Karen Guillet",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
-		},
-		"rating": "3",
-		"location": "Ile de France - Arnouville",
-		"equipments": [
-			"Bouilloire",
-			"SDB",
-			"Cuisine équipée",
-			"Frigo",
-			"WIFI",
-			"TV",
-			"Cintres",
-			"Four",
-			"Micro-Ondes",
-			"Parking"
-		],
-		"tags": [
-			"Nature",
-			"Groupe",
-			"Maison"
-		]
+		"description": "En tant que développeur front-end, mon rôle comprenait la création de la page de présentation des travaux de l'architecte, avec des options de filtrage par catégorie, le développement de la page de connexion sécurisée de l'administrateur en utilisant JWT (JSON Web Tokens) pour l'authentification, ainsi que la conception d'une modale permettant à l'architecte d'ajouter ou de supprimer des projets. J'ai utilisé JavaScript pour générer dynamiquement les éléments en communiquant avec une API, ce qui a permis de récupérer, ajouter et supprimer des travaux.Ce projet m'a fait découvrir l'API et SWAGGER"
 	},
 	{
-		"id": "1e181317",
+		"id": "P4",
 		"title": "Nina Carducci",
+		"title1": "DEBUGGEZ et OPTIMISEZ un site de Photographe",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-5.jpg"
-		],
-		"description": "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les équipements pour que vous soyez comme chez vous.",
-		"host": {
-			"name": "Julie Donatella",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
-		},
-		"rating": "3",
-		"location": "Ile de France - La Défense",
-		"equipments": [
-			"Baie vitrée",
-			"Télévision",
-			"Four",
-			"Frigo",
-			"Wi-fi",
-			"Micro-Ondes",
-			"Parking"
-		],
-		"tags": [
-			"La Défense",
-			"Loft",
-			"Luxe"
-		]
+		"description": "Dans le cadre de ce projet, l'objectif principal était de déboguer et d'optimiser le site pour améliorer son référencement. J'ai entrepris quelques actions pour atteindre cet objectif tel que l'amélioration de la structure des balises HTML,Compression des images ,Optimisation des mots-clés ,Mise en place de Rich Snippets,Optimisation des balises méta et la minification des codes.Ce projet m'a fait découvrir comment auditer les performances d'un site Web avec des outils tels que Lighthouse et Wave et l'importance d'une bonne structuration des balises."
 	},
 	{
-		"id": "1e180563",
+		"id": "P5",
 		"title": "Kasa",
+		"title1": "Création d'une application web de location immobilière avec REACT",
 		"cover": "https://i.ibb.co/BfQH8kD/c0246fb5ef36.webp",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-5.jpg"
-		],
-		"description": "Ce charmant appartement offre des prestations de luxe, aux portes de Paris. À deux pas de la ligne 3, vous pourrez accéder à toutes les attractions touristiques dont vous avez toujours rêvées.",
-		"host": {
-			"name": "Julie Donatella",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
-		},
-		"rating": "4",
-		"location": "Ile de France - Levallois",
-		"equipments": [
-			"Télévision",
-			"Four",
-			"Frigo",
-			"Hotte",
-			"Wi-fi",
-			"Micro-Ondes"
-		],
-		"tags": [
-			"Vue Parc",
-			"Apt de Charme"
-		]
+		"description": "Sur ce projet, mon rôle était de concevoir une plateforme web en utilisant React pour le développement du front-end, en respectant les maquettes graphiques fournies.Installation de l'application avec l'outil create-react-app,création et réutilisation de composants,gestion d'état avec useState et Utilisation de Sass pour la gestion des styles Au final, ce projet m'a donner une bonne base de compétences en React et en gestion de styles, tout en me familiarisant avec les meilleures pratiques pour développer des applications web modernes et performantes.."
 	},
-    {
-		"id": "1e180563",
+	{
+		"id": "P6",
 		"title": "Mon Vieux Grimoire",
+		"title1": "Développez le BACK-END d'un site de notation de livres(NODE.JS)",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-5.jpg"
-		],
-		"description": "Ce charmant appartement offre des prestations de luxe, aux portes de Paris. À deux pas de la ligne 3, vous pourrez accéder à toutes les attractions touristiques dont vous avez toujours rêvées.",
-		"host": {
-			"name": "Julie Donatella",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
-		},
-		"rating": "4",
-		"location": "Ile de France - Levallois",
-		"equipments": [
-			"Télévision",
-			"Four",
-			"Frigo",
-			"Hotte",
-			"Wi-fi",
-			"Micro-Ondes"
-		],
-		"tags": [
-			"Vue Parc",
-			"Apt de Charme"
-		]
+		"description": "Ce projet m'a introduit dans le monde du back-end, me permettant de travailler avec Node.js et MongoDB pour développer des fonctionnalités serveur robustes et gérer des bases de données NoSQL.J'ai également eu l'occasion de découvrir et d'utiliser plusieurs packages essentiels, tels que bCrypt pour le hachage sécurisé des mots de passe, Multer pour la gestion du téléchargement de fichiers, et bien d'autres, qui ont été cruciaux pour garantir le bon fonctionnement de l'application."
 	}
-	
 ]

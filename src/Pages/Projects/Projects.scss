@@ -1,0 +1,19 @@
+.project_body {
+    display: flex;
+    margin: 10px 0px 15px 50px;
+    width: 93%;
+
+    justify-content: space-between;
+
+    .project_title {
+        font-family: "Orbitron", sans-serif;
+        font-size: larger;
+    }
+
+    .project_image {
+        width: 35em;
+        height:23.5em;
+        border-radius: 5px;
+    }
+
+}

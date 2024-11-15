@@ -11,9 +11,9 @@ function Card(props) {
   };
 
   return (
-    <div className="projectDetails" onClick={ImageClick}>
-      <img src={props.cover} alt="projectImg" className="projectImage" />
-      <div className="projectTitle">
+    <div className='cardInfo' onClick={ImageClick}>
+      <img src={props.cover} alt='cardImg' className='cardImage' />
+      <div className='cardTitle'>
         <p >{props.title}</p>
       </div>
     </div>
