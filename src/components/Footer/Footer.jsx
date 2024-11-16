@@ -10,15 +10,12 @@ function Footer() {
         <footer className='page_footer'>
             <NavLink className='name_signature' to='/'>Franck Gullit</NavLink>
             <nav className='footer_links'>
-                <NavLink className={(nav) => (nav.isActive ? 'nav-active' : '')} to='/https://github.com/franckgullit'>
-                    <img src={githubLogo} alt='github_link' className='githublink' />
-                </NavLink>
-                <NavLink className={(nav) => (nav.isActive ? 'nav-active' : '')} to='/https://github.com/franckgullit'>
-                    <img src={linkedinLogo} alt='linkedin_link' className='linkedinlink' />
-                </NavLink>
-
-
-
+                <a href='https://github.com/franckgullit' target='_blank' className='githublink' rel="noreferrer">
+                    <img src={githubLogo} alt='GitHub Profile' />
+                </a>
+                <a href='https://www.linkedin.com/in/franck-g-3595ab13a/' target='_blank' className='linkedinlink' rel="noreferrer">
+                    <img src={linkedinLogo} alt='linkedin Profile' />
+                </a>
             </nav>
         </footer>
     )
