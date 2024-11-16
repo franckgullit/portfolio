@@ -3,8 +3,16 @@
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color:rgb(143, 87, 87);
+    background-color:rgb(116, 1, 1);
     width: 93%;
-    margin:15px 54px;
+    margin:25px 50px;
     border-radius: 15px;  
+}
+
+@media (max-width: 768px){
+    .projectContainer{
+        width:93%;
+        background-color:rgb(5, 96, 112);
+        margin:10px;
+    }
 }

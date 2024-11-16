@@ -17,7 +17,7 @@
 		"id": "P4",
 		"title": "Nina Carducci",
 		"title1": "DEBUGGEZ et OPTIMISEZ un site de Photographe",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
+		"cover": "https://i.ibb.co/DKCYxH9/nina-carducci-image.webp",
 		"description": "Dans le cadre de ce projet, l'objectif principal était de déboguer et d'optimiser le site pour améliorer son référencement. J'ai entrepris quelques actions pour atteindre cet objectif tel que l'amélioration de la structure des balises HTML,Compression des images ,Optimisation des mots-clés ,Mise en place de Rich Snippets,Optimisation des balises méta et la minification des codes.Ce projet m'a fait découvrir comment auditer les performances d'un site Web avec des outils tels que Lighthouse et Wave et l'importance d'une bonne structuration des balises."
 	},
 	{
@@ -31,7 +31,7 @@
 		"id": "P6",
 		"title": "Mon Vieux Grimoire",
 		"title1": "Développez le BACK-END d'un site de notation de livres(NODE.JS)",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
+		"cover": "https://i.ibb.co/27mp5JR/Screenshot-2024-11-16-130929.webp",
 		"description": "Ce projet m'a introduit dans le monde du back-end, me permettant de travailler avec Node.js et MongoDB pour développer des fonctionnalités serveur robustes et gérer des bases de données NoSQL.J'ai également eu l'occasion de découvrir et d'utiliser plusieurs packages essentiels, tels que bCrypt pour le hachage sécurisé des mots de passe, Multer pour la gestion du téléchargement de fichiers, et bien d'autres, qui ont été cruciaux pour garantir le bon fonctionnement de l'application."
 	}
 ]

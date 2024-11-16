@@ -10,7 +10,7 @@ function Accueil() {
         <div>
         <div className='homePage'>
             <img src={homeScreenImg} alt='home_screen' className='homescreen' />
-            <h1 className='job_Title'>DÉVELOPPEUR WEB</h1>
+            <h1 className='job_title'>DÉVELOPPEUR WEB</h1>
         </div>
         <div className='presentation'>
                 <h2 className='about_me'>HI I'M FRANCK</h2>

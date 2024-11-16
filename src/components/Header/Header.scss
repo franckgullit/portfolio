@@ -1,31 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0px 15px 50px;
-    width: 93%;
+    align-items: center;
+    padding:15px;
+    
+}
 
-    .name_signature {
-        text-decoration: none;
-        font-family: "Ephesis", cursive;
-        font-weight: 100;
-        font-size: 2em;  
+.name_signature {
+    color: black;
+    text-decoration: none;
+    font-family: "Ephesis", cursive;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.menu_icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.header_links {
+    display: flex;
+    gap: 25px;
+    margin-right: 15px;
+    
+    a {
         color: black;
-    }
-
-    .header_links {
-        display: flex;
-        gap: 33px;
+        text-decoration: none;
         font-size: 1em;
-        font-weight: 600;
-    }
+        transition: color 0.3s ease;
 
-    nav a {
-        text-decoration: none;
-        color: black;
-        font-weight: lighter;
-    }
-
-    nav a:focus {
-       font-weight: bold;
+        &:hover {
+            color: red;
+        }
     }
 }
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .header_links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .menu_icon {
+        display: block;
+    }
+
+    .header.open .header_links {
+        display: flex;
+    }
+}
+
+.nav-active {
+    color: red;
+}
+
