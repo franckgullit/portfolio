@@ -1,25 +1,54 @@
 .project_body {
     display: flex;
-    margin: 10px 0px 15px 50px;
+    flex-direction: column;
+    margin: 20px 0px 39px 20px;
     width: 93%;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+
+    .project_details {
+        flex: 1;
+    }
 
     .project_title {
         font-family: "Orbitron", sans-serif;
-        font-size: larger;
+        font-size: 1.5em;
+
+        @media (min-width: 768px) {
+            font-size: larger;
+        }
     }
 
     .project_image {
-        width: 30em;
-        height:23.5em;
+        width: 100%;
+        height: auto; 
         border-radius: 5px;
+        margin-bottom: 20px; 
+
+        @media (min-width: 768px) {
+            width: 30em;
+            height: 23.5em;
+            margin-bottom: 0; 
+        }
     }
 
-    .project_more{
-        margin-left: 35px;
-        margin-top: 86px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    .project_Description {
+        flex: 2;
+    }
+
+    .project_more {
+        margin-left: 0; 
+        margin-top: 10px; 
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-style: italic;
+        font-size: 1.1em; 
+
+        @media (min-width: 768px) {
+            margin-left: 35px;
+            margin-top: 50px;
+            font-size: 1.3em; 
+        }
     }
-
 }
-
