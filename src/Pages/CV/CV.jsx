@@ -74,7 +74,7 @@ function CVPage() {
                 <h2>Langues</h2>
                     <ul>
                         <li>Anglais – Langue maternelle</li>
-                        <li>Français – Maîtrise</li>
+                        <li>Français – Courant</li>
                     </ul>
             </section>
 

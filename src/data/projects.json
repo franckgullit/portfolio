@@ -3,28 +3,28 @@
 		"id": "P2",
 		"title": "Booki",
 		"title1": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
-		"cover": "https://i.im.ge/2024/11/18/zXMxUD.Booki-Image.webp",
+		"cover": "https://i.ibb.co/Z62zhsJ/Booki-Image1.webp",
 		"description": "Formellement ma première expérience de codage, j'ai dû créer la page d'accueil d'une agence de voyages en utilisant HTML et CSS et en veillant à ce qu'elle reste compatible avec toutes les tailles d'écran.Rendre la page réactive a d'abord posé un défi, mais grâce à ce projet, j'ai découvert Figma,Flexbox,barre de saisie et bien plus encore."
 	},
 	{
 		"id": "P3",
 		"title": "Sophie Bluel",
 		"title1": "Création d'une page web dynamique avec JAVASCRIPT",
-		"cover": "https://i.im.ge/2024/11/18/zXMY4C.Sophie-Bluel-Image.webp",
+		"cover": "https://i.ibb.co/SQPJM8K/Sophie-Bluel-Image1.webp",
 		"description": "En tant que développeur front-end, mon rôle comprenait la création de la page de présentation des travaux de l'architecte, avec des options de filtrage par catégorie, le développement de la page de connexion sécurisée de l'administrateur en utilisant JWT (JSON Web Tokens) pour l'authentification, ainsi que la conception d'une modale permettant à l'architecte d'ajouter ou de supprimer des projets. J'ai utilisé JavaScript pour générer dynamiquement les éléments en communiquant avec une API, ce qui a permis de récupérer, ajouter et supprimer des travaux.Ce projet m'a fait découvrir l'API et SWAGGER"
 	},
 	{
 		"id": "P4",
 		"title": "Nina Carducci",
 		"title1": "DEBUGGEZ et OPTIMISEZ un site de Photographe",
-		"cover": "https://i.ibb.co/DKCYxH9/nina-carducci-image.webp",
+		"cover": "https://i.ibb.co/n7j48f6/Photo-15-11-2024-21-41-34.webp",
 		"description": "Dans le cadre de ce projet, l'objectif principal était de déboguer et d'optimiser le site pour améliorer son référencement. J'ai entrepris quelques actions pour atteindre cet objectif tel que l'amélioration de la structure des balises HTML,Compression des images ,Optimisation des mots-clés ,Mise en place de Rich Snippets,Optimisation des balises méta et la minification des codes.Ce projet m'a fait découvrir comment auditer les performances d'un site Web avec des outils tels que Lighthouse et Wave et l'importance d'une bonne structuration des balises."
 	},
 	{
 		"id": "P5",
 		"title": "Kasa",
 		"title1": "Création d'une application web de location immobilière avec REACT",
-		"cover": "https://i.im.ge/2024/11/18/zXM334.Kasa-Image.webp",
+		"cover": "https://i.ibb.co/S6MvKtW/Kasa-Image1.webp",
 		"description": "Sur ce projet, mon rôle était de concevoir une plateforme web en utilisant React pour le développement du front-end, en respectant les maquettes graphiques fournies.Installation de l'application avec l'outil create-react-app,création et réutilisation de composants,gestion d'état avec useState et Utilisation de Sass pour la gestion des styles Au final, ce projet m'a donner une bonne base de compétences en React et en gestion de styles, tout en me familiarisant avec les meilleures pratiques pour développer des applications web modernes et performantes.."
 	},
 	{
