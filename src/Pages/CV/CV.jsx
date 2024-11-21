@@ -7,7 +7,7 @@ function CVPage() {
         <div className='cv_page'>
             <header>
                 <h1>Franck Gullit NGANG</h1>
-                <p>Email: frankiegullit@mail.com | Phone: +33 75 333 0896</p>
+                <p>Email: frankiegullit@mail.com | Phone: +33 7 53 33 08 96</p>
             </header>
 
             <section className='profile_summary'>
