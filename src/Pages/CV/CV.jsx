@@ -65,7 +65,7 @@ function CVPage() {
                     <p>Safety Skills Ltd | Doha | 2014</p>
                 </div>
                 <div className='education_entry'>
-                    <h3>BSc. Environlental Science</h3>
+                    <h3>BSc. Environmental Science</h3>
                     <p>University of Buea | Buea | 2011</p>
                 </div>
             </section>
