@@ -53,7 +53,7 @@ function CVPage() {
             <section className='education'>
                 <h2>Éducation</h2>
                 <div className='education_entry'>
-                    <h3>RNCP II Developpeur WEB</h3>
+                    <h3>Certificat Professionnel Developpeur Informatique(Niveau V), Developpeur WEB</h3>
                     <p>OpenClassRooms | Strasbourg | 2024</p>
                 </div>
                 <div className='education_entry'>

@@ -17,6 +17,10 @@ function Projects() {
             </div>
             <div className='project_Description'>
                 <p className='project_more'>{project.description}</p>
+                <p className='project_more'><strong> Problématiques rencontrées</strong>  : {project.problem}</p>
+                <p className='project_more'><strong>Solution</strong> : {project.solution}</p>
+                <p className='project_more'><strong>Compétences employées</strong> : {project.competence}</p>
+                <p className='project_more'><strong>Lien vers le code</strong> : <a href={project.link} target='_blank' rel="noreferrer">{project.link}</a></p>
             </div>
         </div>
 

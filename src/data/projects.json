@@ -4,34 +4,54 @@
 		"title": "Booki",
 		"title1": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
 		"cover": "https://i.ibb.co/Z62zhsJ/Booki-Image1.webp",
-		"description": "Formellement ma première expérience de codage, j'ai dû créer la page d'accueil d'une agence de voyages en utilisant HTML et CSS et en veillant à ce qu'elle reste compatible avec toutes les tailles d'écran.Rendre la page réactive a d'abord posé un défi, mais grâce à ce projet, j'ai découvert Figma,Flexbox,barre de saisie et bien plus encore."
+		"description": "Formellement ma première expérience de codage, j'ai dû créer la page d'accueil d'une agence de voyages en utilisant HTML et CSS et en veillant à ce qu'elle reste compatible avec toutes les tailles d'écran.Rendre la page réactive a d'abord posé un défi, mais grâce à ce projet, j'ai découvert Figma,Flexbox,barre de saisie et bien plus encore.",
+		"problem": "Adapter le design pour qu’il soit fonctionnel et esthétique sur tous les appareils (mobile, tablette, desktop).",
+		"solution" : "Mise en place de media queries et d’une structure basée sur Flexbox pour organiser le contenu de manière fluide.",
+		"competence" : "HTML, CSS,Flexbox, Responsive Design",
+		"link" : "https://github.com/franckgullit/Booki-Travel-Agency-Homepage-"
 	},
 	{
 		"id": "P3",
 		"title": "Sophie Bluel",
 		"title1": "Création d'une page web dynamique avec JAVASCRIPT",
 		"cover": "https://i.ibb.co/SQPJM8K/Sophie-Bluel-Image1.webp",
-		"description": "En tant que développeur front-end, mon rôle comprenait la création de la page de présentation des travaux de l'architecte, avec des options de filtrage par catégorie, le développement de la page de connexion sécurisée de l'administrateur en utilisant JWT (JSON Web Tokens) pour l'authentification, ainsi que la conception d'une modale permettant à l'architecte d'ajouter ou de supprimer des projets. J'ai utilisé JavaScript pour générer dynamiquement les éléments en communiquant avec une API, ce qui a permis de récupérer, ajouter et supprimer des travaux.Ce projet m'a fait découvrir l'API et SWAGGER"
+		"description": "En tant que développeur front-end, mon rôle comprenait la création de la page de présentation des travaux de l'architecte, avec des options de filtrage par catégorie, le développement de la page de connexion sécurisée de l'administrateur en utilisant JWT (JSON Web Tokens) pour l'authentification, ainsi que la conception d'une modale permettant à l'architecte d'ajouter ou de supprimer des projets. J'ai utilisé JavaScript pour générer dynamiquement les éléments en communiquant avec une API, ce qui a permis de récupérer, ajouter et supprimer des travaux.Ce projet m'a fait découvrir l'API et SWAGGER",
+		"problem": "Structurer efficacement les projets pour les rendre facilement accessibles et visuellement attractifs,Mise en place des fenêtres modales pour l'ajout des projets.",
+		"solution" : "Mise en place d’Event Listeners pour Détecter les clics sur les boutons d’ouverture et de fermeture,l'ajout d'un gestionnaire global pour fermer le modal lorsqu’on clique en dehors de celui-ci.",
+		"competence" : "Manipulation du DOM avec les Event Listeners pour gérer les modals,HTML, CSS",
+		"link" : "https://github.com/franckgullit/Sophie-Bluel"
 	},
 	{
 		"id": "P4",
 		"title": "Nina Carducci",
 		"title1": "DEBUGGEZ et OPTIMISEZ un site de Photographe",
 		"cover": "https://i.ibb.co/n7j48f6/Photo-15-11-2024-21-41-34.webp",
-		"description": "Dans le cadre de ce projet, l'objectif principal était de déboguer et d'optimiser le site pour améliorer son référencement. J'ai entrepris quelques actions pour atteindre cet objectif tel que l'amélioration de la structure des balises HTML,Compression des images ,Optimisation des mots-clés ,Mise en place de Rich Snippets,Optimisation des balises méta et la minification des codes.Ce projet m'a fait découvrir comment auditer les performances d'un site Web avec des outils tels que Lighthouse et Wave et l'importance d'une bonne structuration des balises."
+		"description": "Dans le cadre de ce projet, l'objectif principal était de déboguer et d'optimiser le site pour améliorer son référencement. J'ai entrepris quelques actions pour atteindre cet objectif tel que l'amélioration de la structure des balises HTML,Compression des images ,Optimisation des mots-clés ,Mise en place de Rich Snippets,Optimisation des balises méta et la minification des codes.Ce projet m'a fait découvrir comment auditer les performances d'un site Web avec des outils tels que Lighthouse et Wave et l'importance d'une bonne structuration des balises.",
+		"problem": "Implémenter une fonctionnalité permettant aux utilisateurs de naviguer correctement dans les photos via des boutons '<' et '>'.",
+		"solution" : "Corriger le bug dans les fonctions afin de permettre au boutons précédent et suivant d'afficher les photos de manière séquentielle et de gerer des boucles (retour à la première image après la dernière)",
+		"competence" : "JavaScript,HTML,SEO, outils Lighthouse,wave,gimp",
+		"link" : "https://github.com/franckgullit/franckgullit.github.io"
 	},
 	{
 		"id": "P5",
 		"title": "Kasa",
 		"title1": "Création d'une application web de location immobilière avec REACT",
 		"cover": "https://i.ibb.co/S6MvKtW/Kasa-Image1.webp",
-		"description": "Sur ce projet, mon rôle était de concevoir une plateforme web en utilisant React pour le développement du front-end, en respectant les maquettes graphiques fournies.Installation de l'application avec l'outil create-react-app,création et réutilisation de composants,gestion d'état avec useState et Utilisation de Sass pour la gestion des styles Au final, ce projet m'a donner une bonne base de compétences en React et en gestion de styles, tout en me familiarisant avec les meilleures pratiques pour développer des applications web modernes et performantes.."
+		"description": "Sur ce projet, mon rôle était de concevoir une plateforme web en utilisant React pour le développement du front-end, en respectant les maquettes graphiques fournies.Installation de l'application avec l'outil create-react-app,création et réutilisation de composants,gestion d'état avec useState et Utilisation de Sass pour la gestion des styles Au final, ce projet m'a donner une bonne base de compétences en React et en gestion de styles, tout en me familiarisant avec les meilleures pratiques pour développer des applications web modernes et performantes..",
+		"problem": "Implémentation de 'bouton collapse' et 'interaction avec d'autres éléments de la page",
+		"solution" : "Utilisation de useState pour definir sa position initial puis gestion des styles et animations avec SCSS",
+		"competence" : "React (Hooks : useState, useEffect), SCSS",
+		"link" : "https://github.com/franckgullit/kasa"
 	},
 	{
 		"id": "P6",
 		"title": "Mon Vieux Grimoire",
 		"title1": "Développez le BACK-END d'un site de notation de livres(NODE.JS)",
 		"cover": "https://i.ibb.co/27mp5JR/Screenshot-2024-11-16-130929.webp",
-		"description": "Ce projet m'a introduit dans le monde du back-end, me permettant de travailler avec Node.js et MongoDB pour développer des fonctionnalités serveur robustes et gérer des bases de données NoSQL.J'ai également eu l'occasion de découvrir et d'utiliser plusieurs packages essentiels, tels que bCrypt pour le hachage sécurisé des mots de passe, Multer pour la gestion du téléchargement de fichiers, et bien d'autres, qui ont été cruciaux pour garantir le bon fonctionnement de l'application."
+		"description": "Ce projet m'a introduit dans le monde du back-end, me permettant de travailler avec Node.js et MongoDB pour développer des fonctionnalités serveur robustes et gérer des bases de données NoSQL.J'ai également eu l'occasion de découvrir et d'utiliser plusieurs packages essentiels, tels que bCrypt pour le hachage sécurisé des mots de passe, Multer pour la gestion du téléchargement de fichiers, et bien d'autres, qui ont été cruciaux pour garantir le bon fonctionnement de l'application.",
+		"problem": "La gestion des téléchargements de fichiers",
+		"solution" : " J'ai intégré Multer pour gérer les téléchargements de fichiers. Pour les fichiers volumineux, j'ai optimisé le processus en permettant un découpage et une compression des fichiers avant leur envoi.",
+		"competence" : "Node.js,Utilisation de Express pour créer l'API RESTful et gérer la logique métier,MongoDB pour la gestion des données,JWT ",
+		"link" : "https://github.com/franckgullit/Mon-Vieux-Grimoire"
 	}
 ]
