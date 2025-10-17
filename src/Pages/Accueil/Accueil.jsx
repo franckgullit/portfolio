@@ -1,26 +1,62 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { useRef } from 'react';
+import ContactForm from '../../components/ContactForm/ContactForm.jsx';
 
 import homeScreenImg from '../../assets/homeScreen.webp';
-import './Accueil.scss'
-
-
+import './Accueil.scss';
 
 function Accueil() {
-    return(
-        <div>
-        <div className='homePage'>
-            <img src={homeScreenImg} alt='home_screen' className='homescreen' />
-            <h1 className='job_title'>DÉVELOPPEUR WEB</h1>
-        </div>
-        <div className='presentation'>
-                <h2 className='about_me'>HI I'M FRANCK</h2>
-                <p className='aboutme_text'>Je suis un développeur web débutant qui a envie de découvrir et de devenir une partie intégrante du monde de la programmation. <br></br>Après des années de travail dans des secteurs où l'attention aux détails, la résolution de problèmes et la gestion de projets étaient essentielles, je me suis tourné vers le développement web pour canaliser ma passion pour la technologie et la créativité.
-                <br></br>Grâce à l'apprentissage pratique et à l'auto-apprentissage, j'ai acquis une maîtrise des technologies front-end et back-end.
-                <br></br>Mon objectif est de créer des applications web conviviales et efficaces qui résolvent des problèmes du monde réel. Je suis bien conscient des défis que cela implique, mais je suis prêt et disposé à les affronter et à continuer à apprendre de mes difficultés.
-                <br></br>Avec une base solide en pensée analytique et en collaboration d'équipe, je suis ravi d'apporter une perspective unique au monde du développement web. <br></br>Connectons-nous !</p>
+       const presentationRef = useRef(null);
+
+useEffect(() => {
+        const hash = window.location.hash;
+        if (hash === '#about' && presentationRef.current) {
+            presentationRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    }, []);
+
+
+    return (
+        <>
+            <div className='homePage'>
+                <img src={homeScreenImg} alt='home_screen' className='homescreen' />
+                <h1 className='job_title'>WELCOME TO LALA'S WEB</h1>
             </div>
-        </div>
-    )
+
+            <div className='presentation' id='about'  ref={presentationRef}>
+                <h2 className='about_me'>
+                    WELCOME TO LALA'S WEB <br />
+                    <span>Smart. Creative. Reliable. Your Web Project Partner.</span>
+                </h2>
+
+                <p className='aboutme_text'>
+                    At LALA Web Developers, we turn ideas into powerful, user-friendly digital experiences. We're a web development agency dedicated to helping businesses, entrepreneurs, and organizations build effective online solutions — from sleek landing pages to full-stack web applications.
+                    <br /><br />
+                    Founded on a passion for technology, problem-solving, and creative thinking, LALA Web combines technical expertise with a human touch. We specialize in both front-end and back-end development, ensuring your website or app looks great, performs smoothly, and solves real-world problems.
+                    <br /><br />
+                    Whether you’re starting from scratch or looking to improve an existing project, we’re here to deliver clean code, clear communication, and custom solutions that fit your goals — not just templates.
+                </p>
+
+                <h3>What We Offer:</h3>
+                <ul className='offer_list'>
+                    <li>Responsive, modern web design</li>
+                    <li>Scalable front-end & back-end development</li>
+                    <li>Problem-solving through smart digital tools</li>
+                    <li>A collaborative, transparent approach from start to finish</li>
+                </ul>
+
+                <p className='closing_text'>
+                    We're not just building websites.<br />
+                    We're building long-term partnerships and digital products that matter.
+                    <br /><br />
+                    Let’s bring your vision to life — together.
+                </p>
+            </div>
+
+            <ContactForm />
+        </>
+    );
 }
 
 export default Accueil;

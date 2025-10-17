@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {  } from 'react-router-dom';
 import { NavLink, useLocation } from 'react-router-dom';
+
+import Logo from '../../assets/Logo.webp';
 import './Header.scss';
 
 function Header() {
@@ -31,14 +33,13 @@ function Header() {
 
     return (
         <div className={`header ${menuOpen ? 'open' : ''}`} ref={menuRef}>
-            <NavLink className='name_signature' to='/'>Franck Gullit</NavLink>
+            <NavLink className='name_signature' to='/'><img src={Logo} alt='home_screen' className='homescreen' /></NavLink>
             <div className='menu_icon' onClick={toggleMenu}>
                 <i className={`fa-solid fa-bars ${menuOpen ? 'open' : ''}`}></i>
             </div>
             <nav className={`header_links ${menuOpen ? 'open' : ''}`}>
-                <NavLink className={(nav) => (nav.isActive ? 'nav-active' : '')} to='/'>ACCUEIL</NavLink>
-                <NavLink className={(nav) => (nav.isActive ? 'nav-active' : '')} to='/Portfolio'>PORTFOLIO</NavLink>
-                <NavLink className={(nav) => (nav.isActive ? 'nav-active' : '')} to='/CV'>MON CV</NavLink>
+                <NavLink className={(nav) => (nav.isActive ? 'nav-active' : '')} to='/#about'>ABOUT US</NavLink>
+                <NavLink className={(nav) => (nav.isActive ? 'nav-active' : '')} to='/ContactForm'>CONTACT US</NavLink>
             </nav>
         </div>
     );

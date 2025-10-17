@@ -12,7 +12,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: RED;
     font-size: 2.2em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     font-family: "Tomorrow", sans-serif;
@@ -28,8 +28,29 @@
   }
 
   .aboutme_text {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     font-size: 1.2em;
+    margin-bottom: 10px;
   }
+}
+
+.offer_list {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  font-size: 1.2em;
+  padding-left: 20px;
+  list-style-type: disc;
+
+  li {
+    margin-bottom: 0.2rem;
+  }
+  
+  margin-bottom: 15px;
+}
+
+.closing_text{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  font-size: 1.2em;
 }
