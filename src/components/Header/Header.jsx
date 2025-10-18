@@ -1,22 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
-import {  } from 'react-router-dom';
-import { NavLink, useLocation } from 'react-router-dom';
-
 import Logo from '../../assets/Logo.webp';
 import './Header.scss';
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
-    const { pathname } = useLocation();
     const menuRef = useRef(null);
 
-    useEffect(() => {
-        setMenuOpen(false);
-    }, [pathname]);
-
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-    };
+    const toggleMenu = () => setMenuOpen(!menuOpen);
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -24,22 +14,23 @@ function Header() {
                 setMenuOpen(false);
             }
         };
-
         document.addEventListener('mousedown', handleClickOutside);
-        return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
-        };
+        return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
 
     return (
         <div className={`header ${menuOpen ? 'open' : ''}`} ref={menuRef}>
-            <NavLink className='name_signature' to='/'><img src={Logo} alt='home_screen' className='homescreen' /></NavLink>
+            <a className='name_signature' href="#about">
+                <img src={Logo} alt='home_screen' className='homescreen' />
+            </a>
+
             <div className='menu_icon' onClick={toggleMenu}>
                 <i className={`fa-solid fa-bars ${menuOpen ? 'open' : ''}`}></i>
             </div>
+
             <nav className={`header_links ${menuOpen ? 'open' : ''}`}>
-                <NavLink className={(nav) => (nav.isActive ? 'nav-active' : '')} to='/#about'>ABOUT US</NavLink>
-                <NavLink className={(nav) => (nav.isActive ? 'nav-active' : '')} to='/ContactForm'>CONTACT US</NavLink>
+                <a href="#about" onClick={() => setMenuOpen(false)}>ABOUT US</a>
+                <a href="#contact" onClick={() => setMenuOpen(false)}>CONTACT US</a>
             </nav>
         </div>
     );

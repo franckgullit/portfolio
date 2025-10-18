@@ -29,7 +29,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-form">
+    <div className="contact-form" id="contact">
       <h2 className="contact-title">Contact Us</h2>
       <form ref={formRef} onSubmit={handleSubmit} className="contact-form-fields">
         <input

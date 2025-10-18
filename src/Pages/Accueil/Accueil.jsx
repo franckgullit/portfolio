@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useRef } from 'react';
 import ContactForm from '../../components/ContactForm/ContactForm.jsx';
 
-import homeScreenImg from '../../assets/homeScreen.webp';
+import homeScreenImg from '../../assets/homeScreen2.webp';
 import './Accueil.scss';
 
 function Accueil() {
@@ -12,7 +12,7 @@ function Accueil() {
 useEffect(() => {
         const hash = window.location.hash;
         if (hash === '#about' && presentationRef.current) {
-            presentationRef.current.scrollIntoView({ behavior: 'smooth' });
+            presentationRef.current.scrollIntoView({ behavior: 'smooth',block: 'start' });
         }
     }, []);
 
@@ -21,19 +21,18 @@ useEffect(() => {
         <>
             <div className='homePage'>
                 <img src={homeScreenImg} alt='home_screen' className='homescreen' />
-                <h1 className='job_title'>WELCOME TO LALA'S WEB</h1>
+                <h1 className='job_title'>WELCOME TO LALA WEB DEVELOPERS</h1>
             </div>
 
             <div className='presentation' id='about'  ref={presentationRef}>
                 <h2 className='about_me'>
-                    WELCOME TO LALA'S WEB <br />
                     <span>Smart. Creative. Reliable. Your Web Project Partner.</span>
                 </h2>
 
                 <p className='aboutme_text'>
                     At LALA Web Developers, we turn ideas into powerful, user-friendly digital experiences. We're a web development agency dedicated to helping businesses, entrepreneurs, and organizations build effective online solutions — from sleek landing pages to full-stack web applications.
                     <br /><br />
-                    Founded on a passion for technology, problem-solving, and creative thinking, LALA Web combines technical expertise with a human touch. We specialize in both front-end and back-end development, ensuring your website or app looks great, performs smoothly, and solves real-world problems.
+                    Founded on a passion for technology, problem-solving, and creative thinking, LALA's Web combines technical expertise with a human touch. We specialize in both front-end and back-end development, ensuring your website or app looks great, performs smoothly, and solves real-world problems.
                     <br /><br />
                     Whether you’re starting from scratch or looking to improve an existing project, we’re here to deliver clean code, clear communication, and custom solutions that fit your goals — not just templates.
                 </p>
