@@ -49,7 +49,7 @@ useEffect(() => {
                     We're not just building websites.<br />
                     We're building long-term partnerships and digital products that matter.
                     <br /><br />
-                    Let’s bring your vision to life — together.
+                    Let’s bring your vision to life — TOGETHER!
                 </p>
             </div>
 

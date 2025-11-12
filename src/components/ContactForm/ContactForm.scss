@@ -40,7 +40,9 @@
         border: none;
         cursor: pointer;
         transition: 0.3s ease;
-  
+        font-size: 1.1em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
         &:hover {
           background-color: #444;
         }

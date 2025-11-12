@@ -9,7 +9,7 @@ import linkedinLogo from '../../assets/linkedinLogo.jpg';
 function Footer() {
     return (
         <footer className='page_footer'>
-           <NavLink className='name_signature' to='/'><img src={Logo} alt='home_screen' className='homescreen' /></NavLink>
+           <NavLink className='name_signature' to='#about'><img src={Logo} alt='home_screen' className='homescreen' /></NavLink>
             <nav className='footer_links'>
                 <a href='https://www.instagram.com/lala_web_developers/' target='_blank' className='githublink' rel="noreferrer">
                     <img src={InstaLogo} alt='GitHub Profile' />
