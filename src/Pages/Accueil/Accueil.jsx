@@ -21,7 +21,7 @@ useEffect(() => {
         <>
             <div className='homePage'>
                 <img src={homeScreenImg} alt='home_screen' className='homescreen' />
-                <h1 className='job_title'>WELCOME TO LALA WEB DEVELOPERS</h1>
+                <h1 className='job_title'>WELCOME TO LALA WEB SOLUTIONS</h1>
             </div>
 
             <div className='presentation' id='about'  ref={presentationRef}>
@@ -30,7 +30,7 @@ useEffect(() => {
                 </h2>
 
                 <p className='aboutme_text'>
-                    At LALA Web Developers, we turn ideas into powerful, user-friendly digital experiences. We're a web development agency dedicated to helping businesses, entrepreneurs, and organizations build effective online solutions — from sleek landing pages to full-stack web applications.
+                    At LALA Web Solutions, we turn ideas into powerful, user-friendly digital experiences. We're a web development agency dedicated to helping businesses, entrepreneurs, and organizations build effective online solutions — from sleek landing pages to full-stack web applications.
                     <br /><br />
                     Founded on a passion for technology, problem-solving, and creative thinking, LALA's Web combines technical expertise with a human touch. We specialize in both front-end and back-end development, ensuring your website or app looks great, performs smoothly, and solves real-world problems.
                     <br /><br />
