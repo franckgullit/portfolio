@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://lalawebsolutions.com",
+  "homepage": "https://www.lalawebsolutions.com",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
