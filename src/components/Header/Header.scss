@@ -1,137 +1,349 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Header Layout */
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 25px;
-  background-color: none;
-  /* dark background */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-  top: 0;
-  z-index: 1000;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 92px;
+
+    padding: 0 clamp(25px, 5vw, 80px);
+
+    display: flex;
+    align-items: center;
+
+    z-index: 1000;
+
+    background: white;
+
+    transition:
+        background 0.4s ease,
+        height 0.4s ease,
+        box-shadow 0.4s ease;
 }
 
-/* Logo */
-.header img {
-  width: 180px;
-  height: auto;
-  filter: contrast(1.2) brightness(1.50);
-  transition: transform 0.3s ease, filter 0.3s ease;
-  border-radius: 15px;
+
+/* =========================================
+   SCROLLED HEADER
+========================================= */
+
+.header.scrolled {
+    height: 76px;
+
+    background:white ;
+
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.08);
 }
 
-/* Site Name / Signature */
+
+/* =========================================
+   LOGO
+========================================= */
+
 .name_signature {
-  color: #ffffff;
-  text-decoration: none;
-  font-family: "Ephesis", cursive;
-  font-size: 2em;
-  font-weight: 300;
-  letter-spacing: 1px;
-  transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+
+    z-index: 1002;
 }
 
-.name_signature:hover {
-  color: #00bcd4;
-  /* cyan accent on hover */
+.name_signature img {
+    display: block;
+
+    width: 170px;
+    height: 92px;
+
+    border-radius: 2px;
+
+    transition:
+        width 0.3s ease,
+        transform 0.3s ease;
 }
 
-/* Navigation Links */
+.header.scrolled .name_signature img {
+    width: 145px;
+    height: 76px;
+}
+
+.name_signature:hover img {
+    transform: scale(1.02);
+}
+
+
+/* =========================================
+   DESKTOP NAV
+========================================= */
+
 .header_links {
-  display: flex;
-  gap: 25px;
-  margin-right: 15px;
+    display: flex;
+    align-items: center;
+
+    gap: clamp(22px, 3vw, 50px);
+
+    margin-left: auto;
+    margin-right: 35px;
 }
 
 .header_links a {
-  color: black;
-  text-decoration: none;
-  font-size: 1em;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-  transition: color 0.3s ease;
+    position: relative;
+
+    color: #111;
+
+    text-decoration: none;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    letter-spacing: 1.8px;
+
+    transition: opacity 0.3s ease;
 }
 
-.header_links a:hover,
-.nav-active {
-  color: red;
-  /* techy cyan hover */
-}
+.header_links a::after {
+    content: '';
 
-/* Hamburger Menu Icon */
-.menu_icon {
-  display: none;
-  font-size: 1.8em;
-  cursor: pointer;
-  color: #e5e7eb;
-  transition: color 0.3s ease;
-}
-
-.menu_icon:hover {
-  color: #00bcd4;
-}
-
-/* ===== Responsive (Mobile) ===== */
-@media (max-width: 768px) {
-  .header_links {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
     position: absolute;
-    top: 100px;
-    right: 12px;
-    background-color: rgba(25, 27, 32, 0.95);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-    animation: fadeIn 0.3s ease-in-out;
-  }
 
-  .menu_icon {
+    left: 0;
+    bottom: -7px;
+
+    width: 0;
+    height: 1px;
+
+    background: red;
+
+    transition: width 0.3s ease;
+}
+
+.header_links a:hover::after {
+    width: 100%;
+}
+
+
+/* =========================================
+   HEADER CTA
+========================================= */
+
+.header_cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    min-height: 44px;
+
+    padding: 0 20px;
+
+    background: red;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    letter-spacing: 1.4px;
+
+    transition:
+        background 0.3s ease,
+        transform 0.3s ease;
+}
+
+.header_cta span {
+    font-size: 16px;
+}
+
+.header_cta:hover {
+    background: #333;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   MOBILE BUTTON
+========================================= */
+
+.menu_icon {
+    display: none;
+
+    width: 45px;
+    height: 45px;
+
+    padding: 0;
+
+    border: 0;
+
+    background: transparent;
+
+    cursor: pointer;
+
+    z-index: 1002;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.menu_icon span {
     display: block;
-    color: black;
-  }
 
-  .header.open .header_links {
-    display: flex;
-    background-color: fade-out($color: black, $amount: 0.5);
-    width: 98%;
-    height: 100%;
-    left: 5px;
-  }
+    width: 25px;
+    height: 1px;
 
-  .header_links a {
-    font-size: 1.2em;
-    color: #ffffff;
-    margin-top: 33px;
-  }
+    background: #111;
+
+    transition:
+        transform 0.3s ease,
+        width 0.3s ease;
 }
 
-/* ===== Animations ===== */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.menu_icon.open span:first-child {
+    transform: translateY(4px) rotate(45deg);
 }
 
-/* ===== Active Link ===== */
-.nav-active {
-  color: #00bcd4;
-  font-weight: 500;
+.menu_icon.open span:last-child {
+    transform: translateY(-4px) rotate(-45deg);
+}
+
+
+/* =========================================
+   MOBILE MENU
+========================================= */
+
+.mobile_menu {
+    display: none;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .header {
+        height: 78px;
+
+        padding: 0 20px;
+
+        background: rgba(255, 255, 255, 0.92);
+
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+    }
+
+    .header.scrolled {
+        height: 70px;
+    }
+
+    .name_signature img,
+    .header.scrolled .name_signature img {
+        width: 140px;
+    }
+
+    .header_links,
+    .header_cta {
+        display: none;
+    }
+
+    .menu_icon {
+        display: flex;
+
+        margin-left: auto;
+    }
+
+
+    /* MOBILE FULL SCREEN MENU */
+
+    .mobile_menu {
+        position: fixed;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100vh;
+
+        padding: 100px 30px 40px;
+
+        background: #111;
+
+        visibility: hidden;
+        opacity: 0;
+
+        transform: translateY(-15px);
+
+        pointer-events: none;
+
+        transition:
+            opacity 0.35s ease,
+            transform 0.35s ease,
+            visibility 0.35s ease;
+    }
+
+    .mobile_menu.open {
+        visibility: visible;
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+        pointer-events: auto;
+    }
+
+    .mobile_menu a {
+        display: flex;
+        align-items: baseline;
+
+        gap: 20px;
+
+        padding: 18px 0;
+
+        color: white;
+
+        text-decoration: none;
+
+        font-size: clamp(35px, 10vw, 65px);
+
+        font-weight: 600;
+
+        letter-spacing: -2px;
+
+        border-bottom: 1px solid #333;
+    }
+
+    .mobile_menu a span {
+        width: 30px;
+
+        color: #777;
+
+        font-size: 10px;
+
+        letter-spacing: 1px;
+    }
+
+    .mobile_menu_footer {
+        margin-top: auto;
+
+        color: #666;
+
+        font-size: 10px;
+
+        letter-spacing: 3px;
+    }
 }
