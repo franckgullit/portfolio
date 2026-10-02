@@ -5,7 +5,6 @@ import heroImg1 from '../../assets/heroImg1.webp';
 import heroImg2 from '../../assets/heroImg2.webp';
 import heroImg3 from '../../assets/heroImg3.webp';
 import heroImg4 from '../../assets/heroImg4.webp';
-import PJ01 from '../../assets/PJ01.webp';
 import './Accueil.scss';
 
 const heroSlides = [
