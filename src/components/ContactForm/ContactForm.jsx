@@ -11,7 +11,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     const serviceID = "service_zvq8iiy";
-    const templateID = "template_vtuq4v9";
+    const templateID = "template_gytxhfk";
     const userID = "TnyoVQinW808cvHgh";
 
     emailjs
